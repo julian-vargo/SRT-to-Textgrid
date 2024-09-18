@@ -1,8 +1,8 @@
-#.srt to .TextGrid Bulk Processer
+#.srt to .TextGrid Bulk Processor
 # Written in Python 3
 
 # HOW TO CITE:
-# Vargo, Julian (2024). .srt to .TextGrid Bulk Converter [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
+# Vargo, Julian (2024). .srt to .TextGrid Bulk Processor [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
 #    Adapted from Tatman, R.; Pataca, C.; Dolatian, H., [https://github.com/rctatman/SrtToTextgrid]
 
 # INSTRUCTIONS:
