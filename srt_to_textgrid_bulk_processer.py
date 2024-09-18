@@ -14,8 +14,8 @@
 # If you have questions, consult the readme, consult [https://github.com/rctatman/SrtToTextgrid], or email me at julianvargo@berkeley.edu
 
 # Define the input and output folders
-input_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Test_Input_SRT" #The input of this script should be the output of the bulk_sociolinguistic_interview_cleaner.py, if you plan on running both scripts
-output_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Test_Output_Textgrid" #Final output folder where your textgrids should end up
+input_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Cleaned_SRT" #The input of this script should be the output of the bulk_sociolinguistic_interview_cleaner.py, if you plan on running both scripts
+output_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Output_Textgrid" #Final output folder where your textgrids should end up
 
 import codecs
 import sys
