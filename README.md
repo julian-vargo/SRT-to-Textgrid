@@ -1,4 +1,4 @@
-# SRT-to-Textgrid
+# SRT-to-Textgrid-Bulk-Converter
 Converts .SRT subtitle files into .Textgrid files on Python
 Notably, this converter is able to bulk convert entire input folders and drop cleaned SRTs and TextGrids into an output folder.
 
