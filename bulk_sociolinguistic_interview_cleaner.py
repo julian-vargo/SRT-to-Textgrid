@@ -1,11 +1,25 @@
+# Bulk Sociolinguistic Interview Cleaner
+# Written in Python 3
+
+# Vargo, Julian (2024). Bulk Sociolinguistic Interview Cleaner [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
+
+# INSTRUCTIONS:
+# Create a clean folder with the .srt files that you are ready to clean
+# On lines 17 & 18, insert the file paths for your input and output folder
+# Save the python script after you've pasted in your file paths
+# Run the entire script
+# Open your output folder and your files should be there
+# If you have questions, consult the readme or email me at julianvargo@berkeley.edu
+
+
+input_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Input_SRT" #Insert the file path for your input folder here
+output_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Cleaned_SRT" #Insert the file path for your output folder here
+
 import re
 import os
 
-input_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Input_SRT"
-output_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Cleaned_SRT"
-
 # Function to remove entries by Speaker1, handle implicit continuation of Speaker2,
-# remove the "Speaker2:" tag, and renumber the subtitles for each SRT file
+# then removes the "Speaker2:" tag, and renumbers the subtitles for each SRT file
 def filter_srt(input_file, output_file):
     try:
         with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
