@@ -1,3 +1,7 @@
+#.srt to .TextGrid bulk converter
+#written in python 3
+
+
 import codecs
 import sys
 import datetime
