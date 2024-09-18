@@ -4,6 +4,7 @@ Notably, this converter is able to bulk convert entire input folders and drop cl
 Make sure your input folder only contains SRT files which you want to convert. If your transcription export service has an option, split your subtitles by sentence and do not include speaker information.
 
 **How to cite:**
+
 Vargo, Julian (2024). SRT to Textgrid Converter [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
   Adapted from Tatman, R.; Pataca, C.; Dolatian, H., [https://github.com/rctatman/SrtToTextgrid]
 
