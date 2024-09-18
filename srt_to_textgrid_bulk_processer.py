@@ -1,6 +1,16 @@
 #.srt to .TextGrid bulk converter
-#written in python 3
+# Written in Python 3
 
+# Vargo, Julian (2024). SRT to Textgrid Bulk Converter [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
+#    Adapted from Tatman, R.; Pataca, C.; Dolatian, H., [https://github.com/rctatman/SrtToTextgrid]
+
+# INSTRUCTIONS:
+# Create a clean folder with the .srt files that you are ready to convert
+# On lines 26 & 27, insert the file paths for your input and output folder
+# Save the python script after you've pasted in your file paths
+# Run the entire script
+# Open your output folder and your files should be there
+# If you have questions, consult the readme, consult [https://github.com/rctatman/SrtToTextgrid], or email me at julianvargo@berkeley.edu
 
 import codecs
 import sys
