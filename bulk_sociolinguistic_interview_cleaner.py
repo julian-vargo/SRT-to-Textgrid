@@ -1,6 +1,7 @@
 # Bulk Sociolinguistic Interview Cleaner
 # Written in Python 3
 
+#HOW TO CITE:
 # Vargo, Julian (2024). Bulk Sociolinguistic Interview Cleaner [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
 
 # INSTRUCTIONS:
@@ -9,6 +10,7 @@
 # Save the python script after you've pasted in your file paths
 # Run the entire script
 # Open your output folder and your files should be there
+# If you want to eventually convert these cleaned .srt files into .TextGrid files, go to srt_to_textgrid_bulk_processor.py and follow the instructions accordingly
 # If you have questions, consult the readme or email me at julianvargo@berkeley.edu
 
 
