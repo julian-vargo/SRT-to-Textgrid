@@ -3,7 +3,7 @@ Converts .SRT subtitle files into .Textgrid files on Python
 Notably, this converter is able to bulk convert entire input folders and drop cleaned SRTs and TextGrids into an output folder.
 
 
-Make sure your input folder only contains SRT files which you want to convert. If your transcription export service has an option, split your subtitles by sentence and do not include speaker information.
+Make sure your input folder only contains SRT files which you want to convert. If your transcription SRT exporter (eg. sonix or otter exporters) has an option, split your subtitles by sentence and do not include speaker information.
 
 **How to cite:**
 
