@@ -1,21 +1,20 @@
-#.srt to .TextGrid Bulk Processor
+#.srt to .TextGrid bulk converter
 # Written in Python 3
 
-# HOW TO CITE:
-# Vargo, Julian (2024). .srt to .TextGrid Bulk Processor [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
+# Vargo, Julian (2024). SRT to Textgrid Bulk Converter [Computer Software]. https://github.com/julian-vargo/SRT-to-Textgrid/
 #    Adapted from Tatman, R.; Pataca, C.; Dolatian, H., [https://github.com/rctatman/SrtToTextgrid]
 
 # INSTRUCTIONS:
 # Create a clean folder with the .srt files that you are ready to convert
-# On lines 17 & 18, insert the file paths for your input and output folder
+# On lines 16 & 17, insert the file paths for your input and output folder
 # Save the python script after you've pasted in your file paths
 # Run the entire script
 # Open your output folder and your files should be there
 # If you have questions, consult the readme, consult [https://github.com/rctatman/SrtToTextgrid], or email me at julianvargo@berkeley.edu
 
 # Define the input and output folders
-input_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Cleaned_SRT" #The input of this script should be the output of the bulk_sociolinguistic_interview_cleaner.py, if you plan on running both scripts
-output_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Output_Textgrid" #Final output folder where your textgrids should end up
+input_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Cleaned_SRT" #This file path should be the same as the output of bulk_sociolinguistic_interview_cleaner.py
+output_folder = r"C:\Users\julia\Documents\Computer_Docs\Test_SRT\Output_Textgrid" #Your desired output
 
 import codecs
 import sys
